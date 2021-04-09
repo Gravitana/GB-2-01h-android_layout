@@ -48,10 +48,11 @@
         android:text="number"/>
     <EditText
         android:id="@+id/input_number"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:ems="8"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -60,10 +61,11 @@
         android:text="textPassword"/>
     <EditText
         android:id="@+id/input_textPassword"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:ems="12"/>
 
     <TextView
         android:layout_width="wrap_content"
