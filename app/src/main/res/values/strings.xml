@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Android Layout</string>
+    <string name="homework">Домашняя работа</string>
+    <string name="main_button">Главная кнопка</string>
+    <string name="main_switch">Переключатель</string>
+    <string name="checkbox_text">Тут можно снять выбор опции</string>
+    <string name="toggle_off_text">Сейчас всё выключено</string>
+    <string name="toggle_on_text">Всё работает</string>
+    <string name="edittext_label_text">text</string>
+    <string name="edittext_label_textpersonname">textPersonName</string>
+    <string name="edittext_label_phone">phone</string>
+    <string name="edittext_label_number">number</string>
+    <string name="edittext_label_textpassword">textPassword</string>
+    <string name="edittext_label_textemailaddress">textEmailAddress</string>
 </resources>
