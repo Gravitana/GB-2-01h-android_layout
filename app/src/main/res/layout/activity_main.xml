@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -8,25 +9,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:textFontWeight="1000"
         android:gravity="center"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:textColor="@color/design_default_color_secondary"
         android:background="@color/cardview_dark_background"
-        android:text="Домашняя работа"/>
+        android:text="@string/homework"/>
 
     <EditText
         android:id="@+id/input_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="32dp"/>
+        android:layout_marginHorizontal="32dp"
+        android:autofillHints="no"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/button_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
-        android:text="Главная кнопка"/>
+        android:text="@string/main_button"/>
 
     <Switch
         android:id="@+id/switch_main"
@@ -34,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:layout_margin="32dp"
-        android:text="Переключатель"/>
+        android:text="@string/main_switch"/>
 
     <CheckBox
         android:id="@+id/check_main"
@@ -42,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:checked="true"
-        android:text="Тут можно снять выбор опции"
+        android:text="@string/checkbox_text"
         android:textColor="@color/design_default_color_error" />
 
     <ToggleButton
@@ -50,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:layout_gravity="center"
-        android:textOff="Сейчас всё выключено"
-        android:textOn="Всё работает"/>
+        android:textOff="@string/toggle_off_text"
+        android:textOn="@string/toggle_on_text"/>
 
 </LinearLayout>
